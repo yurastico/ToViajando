@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A990070B2B34373E00F557D4 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A990070A2B34373E00F557D4 /* HomeTableViewHeader.xib */; };
+		A990070D2B343AE900F557D4 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */; };
 		C557C3A12B319703005EE2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A02B319703005EE2C1 /* AppDelegate.swift */; };
 		C557C3A32B319703005EE2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A22B319703005EE2C1 /* SceneDelegate.swift */; };
 		C557C3A52B319703005EE2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A42B319703005EE2C1 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A990070A2B34373E00F557D4 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 		C557C39D2B319703005EE2C1 /* ToViajando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToViajando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557C3A02B319703005EE2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C557C3A22B319703005EE2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				C557C3A02B319703005EE2C1 /* AppDelegate.swift */,
 				C557C3A22B319703005EE2C1 /* SceneDelegate.swift */,
 				C557C3A42B319703005EE2C1 /* ViewController.swift */,
+				A990070A2B34373E00F557D4 /* HomeTableViewHeader.xib */,
 				C557C3A62B319703005EE2C1 /* Main.storyboard */,
 				C557C3A92B319704005EE2C1 /* Assets.xcassets */,
 				C557C3AB2B319704005EE2C1 /* LaunchScreen.storyboard */,
 				C557C3AE2B319704005EE2C1 /* Info.plist */,
+				A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */,
 			);
 			path = ToViajando;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C557C3AD2B319704005EE2C1 /* LaunchScreen.storyboard in Resources */,
+				A990070B2B34373E00F557D4 /* HomeTableViewHeader.xib in Resources */,
 				C557C3AA2B319704005EE2C1 /* Assets.xcassets in Resources */,
 				C557C3A82B319703005EE2C1 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C557C3A52B319703005EE2C1 /* ViewController.swift in Sources */,
+				A990070D2B343AE900F557D4 /* HomeTableViewHeader.swift in Sources */,
 				C557C3A12B319703005EE2C1 /* AppDelegate.swift in Sources */,
 				C557C3A32B319703005EE2C1 /* SceneDelegate.swift in Sources */,
 			);
