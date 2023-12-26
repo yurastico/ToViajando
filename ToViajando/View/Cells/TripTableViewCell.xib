@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A5U-7r-567">
                         <rect key="frame" x="10" y="10" width="300" height="380"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cancun-internacional" translatesAutoresizingMaskIntoConstraints="NO" id="408-Ts-dR5">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="408-Ts-dR5">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="ubK-GX-vZc"/>
@@ -111,11 +111,21 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundView" destination="A5U-7r-567" id="QHb-MK-0ET"/>
+                <outlet property="backgroundViewCell" destination="A5U-7r-567" id="Jx1-vk-l75"/>
+                <outlet property="cancellationStatusLabel" destination="whv-ra-YgN" id="hay-dU-vMj"/>
+                <outlet property="diaryTripLabel" destination="9fD-Kq-Zkg" id="7SM-hG-gaK"/>
+                <outlet property="priceDiscontLabl" destination="bjx-sP-Y2H" id="3aQ-ja-cvN"/>
+                <outlet property="priceLabel" destination="ebf-nt-RFX" id="pNq-G7-WSp"/>
+                <outlet property="subtitleTripLabel" destination="Qhe-pG-tfD" id="apB-QL-24c"/>
+                <outlet property="titleTripLabel" destination="Qhe-pG-tfD" id="GdR-Q2-Nsr"/>
+                <outlet property="tripImage" destination="408-Ts-dR5" id="Ped-er-be2"/>
+            </connections>
             <point key="canvasLocation" x="138.93129770992365" y="176.05633802816902"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="cancun-internacional" width="1280" height="778"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
