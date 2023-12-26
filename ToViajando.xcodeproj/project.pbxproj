@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A990070B2B34373E00F557D4 /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A990070A2B34373E00F557D4 /* HomeTableViewHeader.xib */; };
 		A990070D2B343AE900F557D4 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */; };
+		A9D09E502B3ADBC6001F30F6 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E4E2B3ADBC6001F30F6 /* TripTableViewCell.swift */; };
+		A9D09E512B3ADBC6001F30F6 /* TripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */; };
 		C557C3A12B319703005EE2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A02B319703005EE2C1 /* AppDelegate.swift */; };
 		C557C3A32B319703005EE2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A22B319703005EE2C1 /* SceneDelegate.swift */; };
 		C557C3A52B319703005EE2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A42B319703005EE2C1 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		A990070A2B34373E00F557D4 /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
 		A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
+		A9D09E4E2B3ADBC6001F30F6 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripTableViewCell.xib; sourceTree = "<group>"; };
 		C557C39D2B319703005EE2C1 /* ToViajando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToViajando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557C3A02B319703005EE2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C557C3A22B319703005EE2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 		A9D09E482B3AAC3D001F30F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A9D09E4B2B3ADB8A001F30F6 /* Cells */,
 				A9D09E492B3AAC53001F30F6 /* Header */,
 				C557C3A42B319703005EE2C1 /* ViewController.swift */,
 				C557C3A62B319703005EE2C1 /* Main.storyboard */,
@@ -81,6 +86,15 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A9D09E4B2B3ADB8A001F30F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9D09E4E2B3ADBC6001F30F6 /* TripTableViewCell.swift */,
+				A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C557C3942B319702005EE2C1 = {
@@ -174,6 +188,7 @@
 				C557C3AD2B319704005EE2C1 /* LaunchScreen.storyboard in Resources */,
 				A990070B2B34373E00F557D4 /* HomeTableViewHeader.xib in Resources */,
 				C557C3AA2B319704005EE2C1 /* Assets.xcassets in Resources */,
+				A9D09E512B3ADBC6001F30F6 /* TripTableViewCell.xib in Resources */,
 				C557C3A82B319703005EE2C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +204,7 @@
 				A990070D2B343AE900F557D4 /* HomeTableViewHeader.swift in Sources */,
 				C557C3A12B319703005EE2C1 /* AppDelegate.swift in Sources */,
 				C557C3A32B319703005EE2C1 /* SceneDelegate.swift in Sources */,
+				A9D09E502B3ADBC6001F30F6 /* TripTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
