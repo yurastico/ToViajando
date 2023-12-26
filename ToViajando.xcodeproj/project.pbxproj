@@ -11,6 +11,13 @@
 		A990070D2B343AE900F557D4 /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */; };
 		A9D09E502B3ADBC6001F30F6 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E4E2B3ADBC6001F30F6 /* TripTableViewCell.swift */; };
 		A9D09E512B3ADBC6001F30F6 /* TripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */; };
+		A9D09E542B3AE5EE001F30F6 /* server-response.json in Resources */ = {isa = PBXBuildFile; fileRef = A9D09E532B3AE5EE001F30F6 /* server-response.json */; };
+		A9D09E582B3AE615001F30F6 /* TiposDeViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E552B3AE615001F30F6 /* TiposDeViagens.swift */; };
+		A9D09E592B3AE615001F30F6 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E562B3AE615001F30F6 /* Viagem.swift */; };
+		A9D09E5A2B3AE615001F30F6 /* DecodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E572B3AE615001F30F6 /* DecodableData.swift */; };
+		A9D09E5D2B3AE631001F30F6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E5C2B3AE631001F30F6 /* UIView+Extension.swift */; };
+		A9D09E5F2B3AE668001F30F6 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E5E2B3AE668001F30F6 /* TripViewModel.swift */; };
+		A9D09E612B3AE6FA001F30F6 /* FeatureTripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E602B3AE6FA001F30F6 /* FeatureTripViewModel.swift */; };
 		C557C3A12B319703005EE2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A02B319703005EE2C1 /* AppDelegate.swift */; };
 		C557C3A32B319703005EE2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A22B319703005EE2C1 /* SceneDelegate.swift */; };
 		C557C3A52B319703005EE2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A42B319703005EE2C1 /* ViewController.swift */; };
@@ -24,6 +31,13 @@
 		A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 		A9D09E4E2B3ADBC6001F30F6 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
 		A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripTableViewCell.xib; sourceTree = "<group>"; };
+		A9D09E532B3AE5EE001F30F6 /* server-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "server-response.json"; path = "../../../../../../Downloads/Arquivos Swift/arquivos/server-response.json"; sourceTree = "<group>"; };
+		A9D09E552B3AE615001F30F6 /* TiposDeViagens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TiposDeViagens.swift; path = "../../../../../../Downloads/Arquivos Swift/arquivos/TiposDeViagens.swift"; sourceTree = "<group>"; };
+		A9D09E562B3AE615001F30F6 /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Viagem.swift; path = "../../../../../../Downloads/Arquivos Swift/arquivos/Viagem.swift"; sourceTree = "<group>"; };
+		A9D09E572B3AE615001F30F6 /* DecodableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DecodableData.swift; path = "../../../../../../Downloads/Arquivos Swift/arquivos/DecodableData.swift"; sourceTree = "<group>"; };
+		A9D09E5C2B3AE631001F30F6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../../../Downloads/Arquivos Swift/arquivos/UIView+Extension.swift"; sourceTree = "<group>"; };
+		A9D09E5E2B3AE668001F30F6 /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		A9D09E602B3AE6FA001F30F6 /* FeatureTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTripViewModel.swift; sourceTree = "<group>"; };
 		C557C39D2B319703005EE2C1 /* ToViajando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToViajando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557C3A02B319703005EE2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C557C3A22B319703005EE2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +71,9 @@
 		A9D09E472B3AAC18001F30F6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A9D09E572B3AE615001F30F6 /* DecodableData.swift */,
+				A9D09E552B3AE615001F30F6 /* TiposDeViagens.swift */,
+				A9D09E562B3AE615001F30F6 /* Viagem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,6 +101,8 @@
 		A9D09E4A2B3AAC6B001F30F6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A9D09E5E2B3AE668001F30F6 /* TripViewModel.swift */,
+				A9D09E602B3AE6FA001F30F6 /* FeatureTripViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -95,6 +114,22 @@
 				A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		A9D09E522B3AE5C3001F30F6 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				A9D09E532B3AE5EE001F30F6 /* server-response.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		A9D09E5B2B3AE623001F30F6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9D09E5C2B3AE631001F30F6 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C557C3942B319702005EE2C1 = {
@@ -116,6 +151,8 @@
 		C557C39F2B319703005EE2C1 /* ToViajando */ = {
 			isa = PBXGroup;
 			children = (
+				A9D09E5B2B3AE623001F30F6 /* Extensions */,
+				A9D09E522B3AE5C3001F30F6 /* Mock */,
 				A9D09E462B3AAC0D001F30F6 /* AppDelegate */,
 				A9D09E472B3AAC18001F30F6 /* Model */,
 				A9D09E482B3AAC3D001F30F6 /* View */,
@@ -186,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C557C3AD2B319704005EE2C1 /* LaunchScreen.storyboard in Resources */,
+				A9D09E542B3AE5EE001F30F6 /* server-response.json in Resources */,
 				A990070B2B34373E00F557D4 /* HomeTableViewHeader.xib in Resources */,
 				C557C3AA2B319704005EE2C1 /* Assets.xcassets in Resources */,
 				A9D09E512B3ADBC6001F30F6 /* TripTableViewCell.xib in Resources */,
@@ -200,10 +238,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D09E612B3AE6FA001F30F6 /* FeatureTripViewModel.swift in Sources */,
 				C557C3A52B319703005EE2C1 /* ViewController.swift in Sources */,
 				A990070D2B343AE900F557D4 /* HomeTableViewHeader.swift in Sources */,
+				A9D09E582B3AE615001F30F6 /* TiposDeViagens.swift in Sources */,
+				A9D09E5D2B3AE631001F30F6 /* UIView+Extension.swift in Sources */,
+				A9D09E5A2B3AE615001F30F6 /* DecodableData.swift in Sources */,
+				A9D09E5F2B3AE668001F30F6 /* TripViewModel.swift in Sources */,
 				C557C3A12B319703005EE2C1 /* AppDelegate.swift in Sources */,
 				C557C3A32B319703005EE2C1 /* SceneDelegate.swift in Sources */,
+				A9D09E592B3AE615001F30F6 /* Viagem.swift in Sources */,
 				A9D09E502B3ADBC6001F30F6 /* TripTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
