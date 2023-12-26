@@ -41,6 +41,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9D09E462B3AAC0D001F30F6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C557C3A02B319703005EE2C1 /* AppDelegate.swift */,
+				C557C3A22B319703005EE2C1 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A9D09E472B3AAC18001F30F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9D09E482B3AAC3D001F30F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9D09E492B3AAC53001F30F6 /* Header */,
+				C557C3A42B319703005EE2C1 /* ViewController.swift */,
+				C557C3A62B319703005EE2C1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9D09E492B3AAC53001F30F6 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A990070A2B34373E00F557D4 /* HomeTableViewHeader.xib */,
+				A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A9D09E4A2B3AAC6B001F30F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		C557C3942B319702005EE2C1 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +102,13 @@
 		C557C39F2B319703005EE2C1 /* ToViajando */ = {
 			isa = PBXGroup;
 			children = (
-				C557C3A02B319703005EE2C1 /* AppDelegate.swift */,
-				C557C3A22B319703005EE2C1 /* SceneDelegate.swift */,
-				C557C3A42B319703005EE2C1 /* ViewController.swift */,
-				A990070A2B34373E00F557D4 /* HomeTableViewHeader.xib */,
-				C557C3A62B319703005EE2C1 /* Main.storyboard */,
+				A9D09E462B3AAC0D001F30F6 /* AppDelegate */,
+				A9D09E472B3AAC18001F30F6 /* Model */,
+				A9D09E482B3AAC3D001F30F6 /* View */,
+				A9D09E4A2B3AAC6B001F30F6 /* ViewModel */,
 				C557C3A92B319704005EE2C1 /* Assets.xcassets */,
 				C557C3AB2B319704005EE2C1 /* LaunchScreen.storyboard */,
 				C557C3AE2B319704005EE2C1 /* Info.plist */,
-				A990070C2B343AE900F557D4 /* HomeTableViewHeader.swift */,
 			);
 			path = ToViajando;
 			sourceTree = "<group>";
