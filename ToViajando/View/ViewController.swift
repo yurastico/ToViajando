@@ -33,7 +33,18 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "TripTableViewCell") as? TripTableViewCell else { fatalError()}
-        return cell
+        
+        let viewModel = sessaoDeViagens?[indexPath.section]
+        switch viewModel?.type {
+        case .destaques:
+            cell.configCell(viewModel?.trips[indexPath.row])
+            return cell
+        default:
+            return UITableViewCell()
+        }
+     
+        
+        
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {

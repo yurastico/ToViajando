@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A5U-7r-567">
                         <rect key="frame" x="10" y="10" width="300" height="380"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="408-Ts-dR5">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beto-carrero-brasil" translatesAutoresizingMaskIntoConstraints="NO" id="408-Ts-dR5">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="ubK-GX-vZc"/>
@@ -120,12 +120,13 @@
                 <outlet property="priceLabel" destination="ebf-nt-RFX" id="pNq-G7-WSp"/>
                 <outlet property="subtitleTripLabel" destination="Qhe-pG-tfD" id="apB-QL-24c"/>
                 <outlet property="titleTripLabel" destination="Qhe-pG-tfD" id="GdR-Q2-Nsr"/>
-                <outlet property="tripImage" destination="408-Ts-dR5" id="Ped-er-be2"/>
+                <outlet property="tripImage" destination="408-Ts-dR5" id="jOm-jY-DbM"/>
             </connections>
             <point key="canvasLocation" x="138.93129770992365" y="176.05633802816902"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="beto-carrero-brasil" width="1280" height="853"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

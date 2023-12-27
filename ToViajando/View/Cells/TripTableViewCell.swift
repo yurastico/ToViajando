@@ -13,6 +13,7 @@ class TripTableViewCell: UITableViewCell {
  
     @IBOutlet weak var backgroundViewCell: UIView!
     
+
     @IBOutlet weak var tripImage: UIImageView!
     
     @IBOutlet weak var titleTripLabel: UILabel!
@@ -27,6 +28,7 @@ class TripTableViewCell: UITableViewCell {
     
     func configCell(_ trip: Viagem?) {
         tripImage.image = UIImage(named: trip?.asset ?? "")
+    
         titleTripLabel.text = trip?.titulo
         subtitleTripLabel.text = trip?.subtitulo
         priceLabel.text = "R$ \(trip?.preco ?? 0)"
@@ -38,6 +40,10 @@ class TripTableViewCell: UITableViewCell {
             let days = numberOfDays == 1 ? "Diaria" : "Diarias"
             let guests = numberOfGuests == 1 ? "Pessos" : "Pessoas"
             diaryTripLabel.text = "\(numberOfDays) \(days) - \(numberOfGuests) \(guests)"
+        }
+        
+        DispatchQueue.main.async {
+            self.backgroundViewCell.addSombra()
         }
         
     }
