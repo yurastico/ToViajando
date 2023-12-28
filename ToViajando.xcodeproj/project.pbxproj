@@ -18,6 +18,9 @@
 		A9D09E5D2B3AE631001F30F6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E5C2B3AE631001F30F6 /* UIView+Extension.swift */; };
 		A9D09E5F2B3AE668001F30F6 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E5E2B3AE668001F30F6 /* TripViewModel.swift */; };
 		A9D09E612B3AE6FA001F30F6 /* FeatureTripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E602B3AE6FA001F30F6 /* FeatureTripViewModel.swift */; };
+		A9D09E662B3D5DD2001F30F6 /* OfferTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E642B3D5DD2001F30F6 /* OfferTableViewCell.swift */; };
+		A9D09E672B3D5DD2001F30F6 /* OfferTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D09E652B3D5DD2001F30F6 /* OfferTableViewCell.xib */; };
+		A9D09E692B3D5E53001F30F6 /* TripOfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D09E682B3D5E53001F30F6 /* TripOfferViewModel.swift */; };
 		C557C3A12B319703005EE2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A02B319703005EE2C1 /* AppDelegate.swift */; };
 		C557C3A32B319703005EE2C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A22B319703005EE2C1 /* SceneDelegate.swift */; };
 		C557C3A52B319703005EE2C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C3A42B319703005EE2C1 /* ViewController.swift */; };
@@ -38,6 +41,9 @@
 		A9D09E5C2B3AE631001F30F6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../../../Downloads/Arquivos Swift/arquivos/UIView+Extension.swift"; sourceTree = "<group>"; };
 		A9D09E5E2B3AE668001F30F6 /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
 		A9D09E602B3AE6FA001F30F6 /* FeatureTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTripViewModel.swift; sourceTree = "<group>"; };
+		A9D09E642B3D5DD2001F30F6 /* OfferTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferTableViewCell.swift; sourceTree = "<group>"; };
+		A9D09E652B3D5DD2001F30F6 /* OfferTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferTableViewCell.xib; sourceTree = "<group>"; };
+		A9D09E682B3D5E53001F30F6 /* TripOfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripOfferViewModel.swift; sourceTree = "<group>"; };
 		C557C39D2B319703005EE2C1 /* ToViajando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToViajando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557C3A02B319703005EE2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C557C3A22B319703005EE2C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +109,7 @@
 			children = (
 				A9D09E5E2B3AE668001F30F6 /* TripViewModel.swift */,
 				A9D09E602B3AE6FA001F30F6 /* FeatureTripViewModel.swift */,
+				A9D09E682B3D5E53001F30F6 /* TripOfferViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -110,8 +117,8 @@
 		A9D09E4B2B3ADB8A001F30F6 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				A9D09E4E2B3ADBC6001F30F6 /* TripTableViewCell.swift */,
-				A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */,
+				A9D09E632B3D5DC0001F30F6 /* Offers */,
+				A9D09E622B3D5DB2001F30F6 /* Featured */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -130,6 +137,24 @@
 				A9D09E5C2B3AE631001F30F6 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9D09E622B3D5DB2001F30F6 /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				A9D09E4E2B3ADBC6001F30F6 /* TripTableViewCell.swift */,
+				A9D09E4F2B3ADBC6001F30F6 /* TripTableViewCell.xib */,
+			);
+			path = Featured;
+			sourceTree = "<group>";
+		};
+		A9D09E632B3D5DC0001F30F6 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				A9D09E642B3D5DD2001F30F6 /* OfferTableViewCell.swift */,
+				A9D09E652B3D5DD2001F30F6 /* OfferTableViewCell.xib */,
+			);
+			path = Offers;
 			sourceTree = "<group>";
 		};
 		C557C3942B319702005EE2C1 = {
@@ -225,6 +250,7 @@
 				C557C3AD2B319704005EE2C1 /* LaunchScreen.storyboard in Resources */,
 				A9D09E542B3AE5EE001F30F6 /* server-response.json in Resources */,
 				A990070B2B34373E00F557D4 /* HomeTableViewHeader.xib in Resources */,
+				A9D09E672B3D5DD2001F30F6 /* OfferTableViewCell.xib in Resources */,
 				C557C3AA2B319704005EE2C1 /* Assets.xcassets in Resources */,
 				A9D09E512B3ADBC6001F30F6 /* TripTableViewCell.xib in Resources */,
 				C557C3A82B319703005EE2C1 /* Main.storyboard in Resources */,
@@ -238,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D09E662B3D5DD2001F30F6 /* OfferTableViewCell.swift in Sources */,
+				A9D09E692B3D5E53001F30F6 /* TripOfferViewModel.swift in Sources */,
 				A9D09E612B3AE6FA001F30F6 /* FeatureTripViewModel.swift in Sources */,
 				C557C3A52B319703005EE2C1 /* ViewController.swift in Sources */,
 				A990070D2B343AE900F557D4 /* HomeTableViewHeader.swift in Sources */,
