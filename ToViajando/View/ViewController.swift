@@ -47,6 +47,7 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate {
             return cell
         case .ofertas:
             guard let offerCell = tableView.dequeueReusableCell(withIdentifier: "OfferTableViewCell") as? OfferTableViewCell else { fatalError()}
+            offerCell.configCell(viewModel?.trips)
             
             return offerCell
         default:
