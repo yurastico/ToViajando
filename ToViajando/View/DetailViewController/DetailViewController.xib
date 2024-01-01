@@ -19,6 +19,45 @@
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="s6N-yi-66E">
                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2zr-br-dM1" userLabel="imageView">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="235"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YXY-TO-H9D">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="235"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="YXY-TO-H9D" secondAttribute="bottom" id="DIe-fQ-92p"/>
+                                <constraint firstAttribute="trailing" secondItem="YXY-TO-H9D" secondAttribute="trailing" id="Slw-tY-NjH"/>
+                                <constraint firstItem="YXY-TO-H9D" firstAttribute="top" secondItem="2zr-br-dM1" secondAttribute="top" id="Zbi-r3-J4P"/>
+                                <constraint firstItem="YXY-TO-H9D" firstAttribute="leading" secondItem="2zr-br-dM1" secondAttribute="leading" id="sCI-jK-yYI"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zwb-Zw-Y4U">
+                            <rect key="frame" x="16" y="235" width="361" height="59"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pacote de Viagem para cancun All inclusive" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8VC-fd-y8E">
+                                    <rect key="frame" x="0.0" y="0.0" width="361" height="59"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="21"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="2zr-br-dM1" secondAttribute="trailing" id="3Dy-Mo-e8f"/>
+                        <constraint firstItem="zwb-Zw-Y4U" firstAttribute="leading" secondItem="s6N-yi-66E" secondAttribute="leading" constant="16" id="IgP-lk-ufI"/>
+                        <constraint firstItem="2zr-br-dM1" firstAttribute="height" secondItem="s6N-yi-66E" secondAttribute="height" multiplier="0.275822" id="KUM-u8-fYg"/>
+                        <constraint firstAttribute="bottom" secondItem="zwb-Zw-Y4U" secondAttribute="bottom" id="LqG-c7-6vf"/>
+                        <constraint firstItem="2zr-br-dM1" firstAttribute="top" secondItem="s6N-yi-66E" secondAttribute="top" id="Mlj-qK-ozG"/>
+                        <constraint firstItem="zwb-Zw-Y4U" firstAttribute="top" secondItem="2zr-br-dM1" secondAttribute="bottom" id="Uye-hY-8cJ"/>
+                        <constraint firstAttribute="trailing" secondItem="zwb-Zw-Y4U" secondAttribute="trailing" constant="16" id="igT-IH-Hnp"/>
+                        <constraint firstItem="2zr-br-dM1" firstAttribute="leading" secondItem="s6N-yi-66E" secondAttribute="leading" id="nOF-eB-Z8E"/>
+                        <constraint firstItem="2zr-br-dM1" firstAttribute="width" secondItem="s6N-yi-66E" secondAttribute="width" id="xj1-ra-kP4"/>
+                    </constraints>
                 </scrollView>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
