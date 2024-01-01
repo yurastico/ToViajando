@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         tripsTableView.dataSource = self
     }
 
+    private func navigateToDetail(_ trip: Viagem?) {
+        guard let trip else { return }
+        let detailController = DetailViewController.instantiate(trip)
+        navigationController?.pushViewController(detailController, animated: true)
+    }
 }
 
 extension ViewController: UITableViewDataSource,UITableViewDelegate {
@@ -48,7 +53,7 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate {
         case .ofertas:
             guard let offerCell = tableView.dequeueReusableCell(withIdentifier: "OfferTableViewCell") as? OfferTableViewCell else { fatalError()}
             offerCell.configCell(viewModel?.trips)
-            
+            offerCell.delegate = self
             return offerCell
         default:
             return UITableViewCell()
@@ -81,7 +86,22 @@ extension ViewController: UITableViewDataSource,UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detailController = DetailViewController(nibName: "DetailViewController", bundle: nil)
-        navigationController?.pushViewController(detailController, animated: true)
+        let viewModel = sessaoDeViagens?[indexPath.section]
+        switch viewModel?.type {
+        case .destaques,.internacional:
+            let selectedTrip = viewModel?.trips[indexPath.row]
+            navigateToDetail(selectedTrip)
+        default:
+            break
+        }
+        
     }
+}
+
+extension ViewController: OfferTableViewCellDelegate {
+    func didSelectView(_ trip: Viagem?) {
+        navigateToDetail(trip)
+    }
+    
+    
 }

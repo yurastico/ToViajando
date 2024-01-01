@@ -92,7 +92,7 @@
                                     <constraint firstAttribute="trailing" secondItem="lVY-cu-j4o" secondAttribute="trailing" id="qSS-47-kFw"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jP-ey-uaQ">
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jP-ey-uaQ">
                                 <rect key="frame" x="165" y="0.0" width="155" height="385"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="IJ6-bw-Mfy">
